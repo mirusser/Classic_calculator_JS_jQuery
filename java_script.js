@@ -10,13 +10,13 @@ $(document).ready(function(){
 			switch(button_value)
 			{
 				case '.':
-					if(b_value.value % 1 !=0)
+					if(b_value.value % 1 !=0) //checking if value is float, if is, then you can't put another dot
 					{
 
 					}
 					else
 					{
-						b_value.value += button_value;
+						b_value.value += button_value; //if value is integer then you can put a dot
 					}							
 					break;				
 				case '*':
