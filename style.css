@@ -57,3 +57,7 @@ body {
 	height:10%;
 }
 
+#buttons .reset_button:hover{
+	background-color:#202020;
+}
+
